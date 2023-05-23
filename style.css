@@ -26,15 +26,11 @@ body {
 
 header {
 
-    height: 10%;
+    height: 14%;
     width: 100%;
     background-color: #370057;
     border-bottom: 2px solid #ccc;
-    padding: 30px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
+    padding: 5px;
 
 }
 
@@ -52,6 +48,7 @@ header nav ul {
     align-items: center;
     text-align: center;
     padding: 5px;
+    margin-bottom: 10px;
 
 }
 
@@ -70,5 +67,24 @@ header nav ul li:hover {
 
     color: blueviolet;
     padding-bottom: 5px;
+
+}
+
+header .navigation ul .logo img {
+
+    width: 100%;
+    max-width: 190px;
+    border-radius: 50%;
+    border: 2px solid #9f09cc;
+    box-shadow: 1px 1px 5px 1px #d582ee;
+    margin-top: 6px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+
+}
+
+header .navigation ul .logo img:hover {
+
+    transform: translateX(100px) rotate(35deg);
 
 }
